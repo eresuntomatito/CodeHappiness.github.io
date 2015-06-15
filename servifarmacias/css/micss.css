@@ -1,0 +1,41 @@
+/*This is index.html css made by Gabriel Avilés Robles*/
+#logoExample {
+	width: 100%;
+	height: 70px;
+	background-color: red;
+
+}
+.menuBar {
+	background-color: #58FAF4;
+	width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+.menuOption {
+	display: inline;
+	padding-right: 2%;
+	font-size:20px;
+}
+
+.menuOption:active {
+	color: red;
+	
+}
+a:hover, a:visited, a:link, a:active {
+	text-decoration:none;
+}
+
+div ul {
+	padding-top: 35px;
+	padding-left: 0px;
+	list-style-type:none;	
+}
+.imagenCarousel{
+	width:100%;
+	height:auto;
+	
+}
+.barra_contactos{
+	text-align:center;
+
+}
