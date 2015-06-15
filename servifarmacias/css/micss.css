@@ -1,41 +1,80 @@
-/*This is index.html css made by Gabriel Avilés Robles*/
-#logoExample {
-	width: 100%;
-	height: 70px;
-	background-color: red;
-
+body {
+	background-color: #B3FC9E;
 }
-.menuBar {
-	background-color: #58FAF4;
-	width: 100%;
-	padding-left:0px;
-	padding-right:0px;
-}
-.menuOption {
-	display: inline;
-	padding-right: 2%;
-	font-size:20px;
-}
-
-.menuOption:active {
-	color: red;
-	
-}
-a:hover, a:visited, a:link, a:active {
-	text-decoration:none;
-}
-
-div ul {
-	padding-top: 35px;
-	padding-left: 0px;
-	list-style-type:none;	
-}
-.imagenCarousel{
+#logo {
 	width:100%;
-	height:auto;
+	padding:5px;
+}
+#logo2 {
+	width:100%;
+	padding:5px;
+	padding-left:0px;
+}
+.menu {
+	background-color:#26AD00;
+	border-color:#26AD00;
+}
+.liga{
+	font-family:"Arial Black";
+	font-size:18px;
+	color:black;
+	text-decoration:underline;
+
+}
+a:link, a:hover, a:visited{
+	text-decoration:none;
 	
 }
-.barra_contactos{
-	text-align:center;
+.imagenesCarousel {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.descripcion {
+	color:black;
+	font-weight: bold;
+	font-size:18px;
+	font-family: "Times New Roman";
+}
+.sideImage{
+	width:95%;
 
+}
+
+#facebook{
+	padding-top:10px;
+	width:95%;
+	background-color:blue;
+	height:274px;
+}
+.divisor{
+	background-color:#26AD00;
+	border-color:#26AD00;
+	height:20px;
+	border-radius:3px;
+	margin:2px;
+}
+.divisor2{
+	background-color:#26AD00;
+	border-color:#26AD00;
+	height:3px;
+	border-radius:3px;
+	margin:2px;
+}
+#prox {
+	background-color:red;
+	height:300px;
+	width:100%;
+}
+.miniImagen{
+
+	display:inline;
+	width:49px;
+	height:45px;
+}
+.miniTexto{
+	text-align:center;
+}
+.imagen1{
+	margin-left:150px;
 }
