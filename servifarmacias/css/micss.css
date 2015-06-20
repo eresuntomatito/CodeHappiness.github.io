@@ -74,6 +74,8 @@ a:link, a:hover, a:visited{
 }
 .miniTexto{
 	text-align:center;
+	text-decoration:none;
+	color:black;
 }
 .imagen1{
 	margin-left:150px;
