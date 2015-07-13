@@ -1,5 +1,33 @@
 body {
-	background-color: #B3FC9E;
+	background-color: #CAD8D8;
+}
+
+/* HEADER  */
+.jumbotron {
+/*	overflow: auto;*/
+	height: 200px;
+	background-color: #05686C;
+	position: relative;
+	padding: 40px 40px 25px 60px;
+	margin: auto;
+}
+
+.headerlogo {
+	max-width: 100%;
+	margin: 0px;
+	height: 100%;
+	/*height: 100px;*/
+}
+
+#circulo {
+	position: relative;
+	vertical-align: bottom;
+	float: right;
+	right: 0px;
+	margin-top: 60px;
+	bottom: 10px;
+	height: 65%;
+	/*height: 80px;*/
 }
 #logo {
 	width:100%;
@@ -9,7 +37,20 @@ body {
 	width:115%;
 	padding:5px;
 	padding-left:0px;
+	float: left;
 }
+
+/*MENU - NAVEGACION*/
+a {
+	color: inherit;
+}
+
+.servi {
+	font-family: Arial;
+	color: #0D595C;  /*#0D595C*/
+}
+
+
 .menu {
 	background-color:#26AD00;
 	border-color:#26AD00;
@@ -23,6 +64,7 @@ body {
 }
 a:link, a:hover, a:visited{
 	text-decoration:none;
+	color: inherit;
 	
 }
 .imagenesCarousel {
