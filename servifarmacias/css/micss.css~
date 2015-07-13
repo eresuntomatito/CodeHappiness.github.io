@@ -97,9 +97,6 @@ a:link, a:hover, a:visited{
 	border:solid 2px #FF0C0C;
 	border-radius:25px;
 }
-#itemderifa{
-	width:100%;
-}
 #domingos{
 	width:100%;
 	text-align:center;
