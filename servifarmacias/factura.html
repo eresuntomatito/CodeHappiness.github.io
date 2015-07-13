@@ -45,7 +45,7 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#"><span class="liga">Inicio </span><span class="sr-only">(current)</span></a></li>
+                  <li><a href="index.html"><span class="liga">Inicio </span><span class="sr-only">(current)</span></a></li>
                   <li><a href="nosotros.html"><span class="liga">Nosotros</span></a></li>
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="liga">Servicios</span> <span class="caret"></span></a>
@@ -67,82 +67,72 @@
           </nav>
         </div>
       </div>
+      
       <div class="row">
-        <div class="col-md-8 carousel">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      	<div class="col-md-5 col-md-offset-1">
+      		<h1>Haz tu Factura Aqui!</h1>
+      		<h3>Ingresa tus datos correctamente en los campos que se muestran.</h3>
+      		<p>Su fatura se le mandara por correo en posteriormente.</p>
+      		<form action="?" method="post">
             
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img class="imagenesCarousel" src="files/medicamentos.jpg" alt="">
-                <div class="carousel-caption">
-                  <p class="descripcion">Buen surtido a bajos precios</p>
-                </div>
+              <div class="form-group">
+                <label for="nticket">Numero de Ticket </label>
+                <input type="number" name="nticket" id="nticket"/>
               </div>
-              <div class="item">
-                <img class="imagenesCarousel" src="files/saludnatural.jpeg" alt="">
-                <div class="carousel-caption">
-                  <p class="descripcion">Salud natural</p>
-                </div>
+              <div class="form-group">
+                <label for="monto">Monto del ticket </label>
+                <input type="number" name="monto" id="monto"/>
               </div>
-              <div class="item">
-                <img class="imagenesCarousel" src="files/serviciomedico.jpg" alt="">
-                <div class="carousel-caption">
-                  <p class="descripcion">Medicos las 24 horas</p>
-                </div>
+              <div class="form-group">
+                <label for="calle">Calle </label>
+                <input type="text" name="calle" id="calle"/>
               </div>
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Siguiente</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row">
-            <a href="factura.html"><img class="sideImage" src="files/factura.jpg" /></a>
-          </div>
-          <div class="row">
-            <div id="facebook">
-
-            </div>
-          </div>
-        </div>
+              <div class="form-group">
+                <label for="numero">Numero </label>
+                <input type="text" name="numero" id="numero"/>
+              </div>
+              
+              <div class="form-group">
+                <label for="colonia">Colonia</label>
+                <input type="text" name="colonia" id="colonia"/>
+              </div>
+              <div class="form-group">
+                <label for="cp">C.P.</label>
+                <input type="number" name="cp" id="cp"/>
+              </div>
+              <div class="form-group">
+                <label for="ciudad">Ciudad</label>
+                <input type="text" name="ciudad" id="ciudad"/>
+             </div>
+              <div class="form-group">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado"/>
+              </div>
+              <div class="form-group">
+                <label for="rfc">RFC</label>
+                <input type="text" name="rfc" id="rfc"/>
+             </div>
+             <div class="radio">
+                <label>
+                  <input type="radio" name="sucursal" id="culiacan" value="culiacan" checked>
+                  Culiacan
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="sucursal" id="mazatlan" value="mazatlan">
+                  Mazatlan
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" id="email"/>
+              </div>
+              <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+      	</div>
       </div>
-      <div class="row divisor">
-      </div>
-      <div class="row">
-        <div class="col-md-offset-1 col-md-7">
-          <h1> Servi-Farmacias del Pacífico S.A. de C.V. </h1>
-          <p><strong> Este es un parrafo para describir la farmacia.</strong> <br>
-              Un parrafo introductorio donde se puede mencionar el slogan de la farmacia y darle una bienvenida al que visita la pagina.</p>
-
-          <div class="divisor2"> </div>
-
-          <h3> Noticias de la Comunidad </h3>
-          <p> Enterate de las noticias que suceden alrededor, lo que a nuestro alrededor. </p>
-          <div id="prox"></div>
-
-          <div class="divisor2"></div>
-          <h3> Rifa de la Semana </h3>
-          <p> ¿Será tu día de suerte? Registra tu ticket y juega tu suerte. Tal vez ganes el premio de la semana. </p>
-           <div id="prox"></div>
-          <div class="divisor2"></div>
-          <h3> Diviertete </h3>
-          <p> Entretenimiento por horas con este divertido juego, hecho por Servi-Farmacias </p>
-          <div id="prox"></div>
-          
-        </div>
-        <div class="col-md-4">
-
-        </div>
-      </div>
+    
       <div class="row divisor">
       </div>
       <div class="row">
