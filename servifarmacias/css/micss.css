@@ -139,9 +139,14 @@ a:link, a:hover, a:visited{
 	border:solid 2px #FF0C0C;
 	border-radius:25px;
 }
+/* RIFA SEMANAL   */
 #itemderifa{
 	width:100%;
 }
+#resultadoRifa {
+	color:red;
+}
+
 #domingos{
 	width:100%;
 	text-align:center;
