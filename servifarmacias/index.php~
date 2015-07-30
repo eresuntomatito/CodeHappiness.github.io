@@ -13,9 +13,7 @@
 				
 			}
 		}
-		else{
-			echo "chale";
-		}
+		
 		if($validEntry){
 			fwrite($handle, $string."\n");
 		}
@@ -150,7 +148,7 @@
           <div class="row">
             <a href="factura.html"><img class="sideImage" src="files/factura.jpg" /></a>
           </div>
-          <div class="row">
+          <div class="row NoDisplay">
             <div id="facebook">
 
             </div>

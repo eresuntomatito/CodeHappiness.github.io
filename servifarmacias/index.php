@@ -148,7 +148,7 @@
           <div class="row">
             <a href="factura.html"><img class="sideImage" src="files/factura.jpg" /></a>
           </div>
-          <div class="row">
+          <div class="row NoDisplay">
             <div id="facebook">
 
             </div>
@@ -165,11 +165,11 @@
 
           <div class="divisor2"> </div>
 
-          <h3> Noticias de la Comunidad </h3>
-          <p> Enterate de las noticias que suceden alrededor, lo que a nuestro alrededor. </p>
-          <div id="prox"></div>
+          <h3 class="NoDisplay"> Noticias de la Comunidad </h3>
+          <p class="NoDisplay"> Enterate de las noticias que suceden alrededor, lo que a nuestro alrededor. </p>
+          <div class="NoDisplay" id="prox"></div>
 
-          <div class="divisor2"></div>
+          <div class="divisor2 NoDisplay"></div>
           <h3> Rifa de la Semana </h3>
           <p> ¿Será tu día de suerte? Registra tu ticket y juega tu suerte. Tal vez ganes el premio de la semana. </p>
            <div class="row">
@@ -223,10 +223,10 @@
 			?></p>
 		</div>
 	  </div>
-          <div class="divisor2"></div>
-          <h3> Diviertete </h3>
-          <p> Entretenimiento por horas con este divertido juego, hecho por Servi-Farmacias </p>
-	  <div id="prox"></div>
+          <div class="divisor2 NoDisplay"></div>
+          <h3 class="NoDisplay"> Diviertete </h3>
+          <p class="NoDisplay"> Entretenimiento por horas con este divertido juego, hecho por Servi-Farmacias </p>
+	  <div class="NoDisplay" id="prox"></div>
           
           
         </div>

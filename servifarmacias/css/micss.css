@@ -159,3 +159,9 @@ a:link, a:hover, a:visited{
 	border-radius:25px;
 
 }
+
+
+/* Cosas para despues (display = "none"); */
+.NoDisplay {
+	display: none;
+}
