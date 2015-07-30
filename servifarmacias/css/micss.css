@@ -160,7 +160,16 @@ a:link, a:hover, a:visited{
 
 }
 
+#soliciteF {
+	color: #0C75A5;
+	font-size: 30px;
+	font-weight: bold;
 
+}
+#soliciteFicon {
+	
+	display:inline-block;
+}
 /* Cosas para despues (display = "none"); */
 .NoDisplay {
 	display: none;

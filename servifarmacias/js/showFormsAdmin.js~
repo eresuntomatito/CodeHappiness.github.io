@@ -3,7 +3,6 @@ document.getElementById("form2").style.display = "none";
 
 document.getElementById("form3").style.display = "none";
 function hideOrShowElement(imgNo) {
-	alert(imgNo);
 	if(imgNo === 1){
 		if(document.getElementById("form1").style.display === "none"){
 			document.getElementById("form1").style.display = "block";

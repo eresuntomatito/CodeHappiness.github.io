@@ -6,7 +6,7 @@
 		$string = $_POST["folio"]." ".$_POST["monto"]." ".$_POST["correo"]." ".$_POST["telefono"]." ".$_POST["sucursal"];
 		if($handle){
 			while(($line = fgets($handle)) !== false){
-				$segment = explode(" ", $line);
+				$segment = explode(",", $line);
 				if($segment[0] === $_POST["folio"] && $segment[1] === $_POST["monto"] && $segment[4] === $_POST["sucursal"]."\n"){
 					$validEntry = false;
 				}

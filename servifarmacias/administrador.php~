@@ -25,7 +25,7 @@
 		} else {
 			$uploadOk = 0;
 		}
-		if ($_FILES["fileToUpload"]["size"] > 16000000) {
+		if ($_FILES["fileToUpload"]["size"] > 500000) {
 		    $resultadoSubida = "La imagen esta muy pesada. ";
 		    $uploadOk = 0;
 		}
