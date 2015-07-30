@@ -72,23 +72,19 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active "><a href="#"><span class = "servi">INICIO</span> <span class="sr-only">(current)</span></a></li>
-        <li><a href="#"><span class="servi">Nosotros</span></a></li>
+        <li class="active "><a href="#"><span class = "servi">Inicio</span> <span class="sr-only">(current)</span></a></li>
+        <li><a href="nosotros.html"><span class="servi">Nosotros</span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="servi">Servicios</span><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a  href="#">Médicos</a></li>
-            <li><a href="#">Laboratorios</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Medicamento</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Productos Naturales</a></li>
+            <li><a  href="medicos.php">Médicos</a></li>
+            <li><a href="laboratorio.html">Laboratorios</a></li>
           </ul>
         </li>
-        <li class = "servi-menu" ><a href="#"><span class="servi">Sucursales</span></a></li>
+        <li class = "servi-menu" ><a href="sucursales.html"><span class="servi">Sucursales</span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="servi">Bolsa de trabajo</span></a></li>
+        <li><a href="bolsatrabajo.html"><span class="servi">Bolsa de trabajo</span></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
