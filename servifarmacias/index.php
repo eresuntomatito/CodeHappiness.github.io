@@ -35,6 +35,16 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Servi-Farmacias</title>
 
+	<?php
+		if(isset($_POST["submit"])){
+			echo "<script type=\"text/javascript\">
+				window.onload = function() {
+					document.getElementById(\"resultadoRifa\").scrollIntoView();
+				};
+			 </script>";
+		}
+		
+	?>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/micss.css" rel="stylesheet">
@@ -198,19 +208,19 @@
 			<form class="form-inline" id="rifaForm" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">
 				<div class="form-group">
 					<label for="ticket">Folio del Ticket</label>
-					<input name="folio" type="text" class="form-control" id="ticket" placeholder="Numero de Ticket">
+					<input name="folio" required type="text" class="form-control" id="ticket" placeholder="Numero de Ticket">
 				</div>
 				<div class="form-group">
 					<label for="monto">Monto del Ticket</label>
-					<input name="monto" type="text" class="form-control" id="monto" placeholder="Monto del Ticket">
+					<input name="monto" required type="text" class="form-control" id="monto" placeholder="Monto del Ticket">
 				</div>
 				<div class="form-group">
 					<label for="email">Correo Electronico</label>
-					<input name="correo" type="email" id="email" class="form-control" placeholder="correo electronico">
+					<input name="correo" required type="email" id="email" class="form-control" placeholder="correo electronico">
 				</div>
 				<div class="form-group">
 					<label for="telefono">Telefono o Celular</label>
-					<input name="telefono" type="text" class="form-control" id="telefono" placeholder="numero de telefono o celular">
+					<input name="telefono" type="text" required class="form-control" id="telefono" placeholder="numero de telefono o celular">
 				</div>
         <div class="form-group">
           <label for="sucursal">Sucursal</label>
