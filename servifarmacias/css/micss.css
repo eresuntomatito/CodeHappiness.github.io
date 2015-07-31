@@ -171,6 +171,8 @@ a:link, a:hover, a:visited{
 }
 #resultadoRifa {
 	color:red;
+	font-size:20px;
+	font-weight:bold;
 }
 
 #domingos{
