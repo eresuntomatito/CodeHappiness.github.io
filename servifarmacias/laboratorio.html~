@@ -201,8 +201,8 @@
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
      <p class="navbar-text">Culiacan, Sinaloa, México © 2003 Servifarmacias Pacifico</p>
-     <p class="navbar-text navbar-right"><a href="http://192.168.5.1/farmasoft/login-form.php" ><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a></p>
-     <p class="navbar-text navbar-right"><a href="https://host.hddtotal5.com:2096/" ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></p>
+     <p class="navbar-text navbar-right"><a href="" ><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a></p>
+     <p class="navbar-text navbar-right"><a href="" ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></p>
       <p class="navbar-text navbar-right"><a href="avisolegal.html" class="navbar-link">Aviso de Privacidad</a></p>
 
   </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -44,17 +44,17 @@
       <ul class="nav navbar-nav">
         <li><a href="index.php"><span class ="servi">Inicio</span> </a></li>
         <li><a href="nosotros.html"><span class="servi">Nosotros</span></a></li>
-        <li class="dropdown">
+        <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="servi">Servicios</span><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a  href="medicos.php">Médicos</a></li>
+            <li><a  href="#">Médicos<span class="sr-only">(current)</span></a></li>
             <li><a href="laboratorio.html">Laboratorios</a></li>
           </ul>
         </li>
         <li class="servi-menu" ><a href="sucursales.html"><span class="servi">Sucursales</span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#"><span class="servi">Bolsa de trabajo</span><span class="sr-only">(current)</span></a></li>
+        <li><a href="bolsatrabajo.html"><span class="servi">Bolsa de trabajo</span></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -69,16 +69,19 @@
 
 
 
-<!--      FOOTER     -->
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-     <p class="navbar-text">Culiacan, Sinaloa, México © 2003 Servifarmacias Pacifico</p>
-     <p class="navbar-text navbar-right"><a href="http://192.168.5.1/farmasoft/login-form.php" ><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a></p>
-     <p class="navbar-text navbar-right"><a href="https://host.hddtotal5.com:2096/" ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></p>
-      <p class="navbar-text navbar-right"><a href="avisolegal.html" class="navbar-link">Aviso de Privacidad</a></p>
 
-  </div>
-</nav>
+      <div class="row divisor">
+      </div>
+      <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+          <p class="miniTexto"> Culiacan, Sinaloa, México <br>
+          <p class="miniTexto"><a href="https://servifarmacias.com.mx:2078/">&copy; 2003 Servifarmacias Pacifico </a></p>
+          <p class="miniTexto"><a href="avisolegal.html">Aviso Legal </a></p>
+          <a href="http://192.168.5.1/farmasoft/login-form.php"><img class="miniImagen imagen1" src="files/login1.jpg"/></a>
+          <a href="https://host.hddtotal5.com:2096/"><img class="miniImagen" src="files/mail.jpg"/></a>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
