@@ -130,29 +130,7 @@
               </div>
             </div>
 	
-	 <?php
-		$imagenes = fgets($fh);
-		$lista_imagen = explode(",", $imagenes);
-		echo "<script type=\"text/javascript\"> 
-				var img1 = document.getElementById(\"imagen1\");
-				img1.src = \"files/". $lista_imagen[0]."\";
-				
-				var img2 = document.getElementById(\"imagen2\");
-				img2.src = \"files/".$lista_imagen[1]."\";
-				
-				var img3 = document.getElementById(\"imagen3\");
-				img3.src = \"files/".$lista_imagen[2]."\";
-
-				var img4 = document.getElementById(\"imagen4\");
-				img4.src = \"files/".$lista_imagen[3]."\";
-
-				var img5 = document.getElementById(\"imagen5\");
-				img5.src = \"files/".$lista_imagen[4]."\";
-				
-				
-			</script>";
-
-	?>
+	 
 
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -201,7 +179,7 @@
            <div class="row">
 		<div class="col-md-6">
 			
-			<img id="itemderifa" src="files/rifa.jpg" />
+			<img id="itemderifa"  />
 		</div>
 		<div class="col-md-6">
 			<h1>Pon tus datos y participa en la rifa</h1>
@@ -264,6 +242,7 @@
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
      <p class="navbar-text">Culiacan, Sinaloa, México © 2003 Servifarmacias Pacifico</p>
+ <p class="navbar-text navbar-right"><a href="login.php" ><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></a></p>
      <p class="navbar-text navbar-right"><a href="http://192.168.5.1/farmasoft/login-form.php" ><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a></p>
      <p class="navbar-text navbar-right"><a href="https://host.hddtotal5.com:2096/" ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></p>
       <p class="navbar-text navbar-right"><a href="avisolegal.html" class="navbar-link">Aviso de Privacidad</a></p>
@@ -271,6 +250,41 @@
   </div>
 </nav>
    
+	<?php
+		$imagenes = fgets($fh);
+		$lista_imagen = explode(",", $imagenes);
+		echo "<script type=\"text/javascript\"> 
+				var img1 = document.getElementById(\"imagen1\");
+
+				img1.src = \"files/". $lista_imagen[0]."\";
+				
+
+				var img2 = document.getElementById(\"imagen2\");
+
+				img2.src = \"files/".$lista_imagen[1]."\";
+
+				
+				var img3 = document.getElementById(\"imagen3\");
+				img3.src = \"files/".$lista_imagen[2]."\";
+
+
+				var img4 = document.getElementById(\"imagen4\");
+
+				img4.src = \"files/".$lista_imagen[3]."\";
+
+
+				var img5 = document.getElementById(\"imagen5\");
+				img5.src = \"files/".$lista_imagen[4]."\";
+
+				var img6 = document.getElementById(\"itemderifa\");
+				img6.src = \"files/".$lista_imagen[5]."\";
+
+				
+				
+
+			</script>";
+
+	?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

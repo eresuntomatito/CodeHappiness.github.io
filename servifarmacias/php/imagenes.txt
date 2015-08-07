@@ -1,1 +1,3 @@
-nuevaImagen.jpg,saludnatural.jpeg,serviciomedico.jpg,doctora farmacia.jpg,farmacia2.jpg,e
+1FANTA2.jpg,9AGUA CIEL.jpg,10FUZE TEA.jpg,11LECHE.jpg,saludnatural.jpeg,rifa.jpg,e
+e
+pg,e
