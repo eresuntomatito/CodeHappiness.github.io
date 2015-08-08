@@ -64,12 +64,9 @@
 
 <!--      CONTENIDO     -->
       
-      <div class="row text-justify">
-      	<div class="col-md-6 col-md-offset-3">
-            <div class="page-header">
-         <h1>AVISO DE PRIVACIDAD</h1>
-          </div>
-      		
+      <div class="row">
+      	<div class="col-md-5 col-md-offset-1">
+      		<h1>AVISO DE PRIVACIDAD</h1>
             <p>De conformidad con lo previsto en la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (en lo sucesivo “LA LEY”), nos permitimos solicitarle leer cuidadosamente los Términos y Condiciones contenidos en este documento, ya que la simple aportación que haga de sus “Datos Personales” y/o “Datos Personales Sensibles” (en lo sucesivo sus “DATOS PERSONALES”) constituye la aceptación de estos Términos y Condiciones:</p>
             <ol>
               <li>NADRO, S.A. de C.V., NADRO SERVICIOS S. DE R. L. DE C.V.,  SERVIFARMACIAS DEL PACIFICO, S.A. DE C.V., SERVIFARMACIAS PACIFICO, S.A. DE C.V.(en lo sucesivo “NADRO” ), será el responsable de sus “DATOS PERSONALES” , de conformidad a lo dispuesto por la fracción I del artículo 16 de “LA LEY”, con domicilio en Avenida Vasco de Quiroga 3100, colonia Centro de Ciudad Santa Fe, Delegación Álvaro Obregón, C.P. 01210, en México, Distrito Federal;</li>
@@ -105,33 +102,19 @@
       		
       	</div>
       </div>
-<<<<<<< HEAD
-
-    <!--      FOOTER     -->
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-     <p class="navbar-text">Culiacan, Sinaloa, México © 2003 Servifarmacias Pacifico</p>
-
-     <p class="navbar-text navbar-right">
-      <a href="http://www.servifarmacias.com.mx:2095/"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a> <!-- ICONO DE CORREO -->
-    </p>
-=======
     
-     <!--      FOOTER     -->
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-     <p class="navbar-text">Culiacan, Sinaloa, México © 2003 Servifarmacias Pacifico</p>
-     <p class="navbar-text navbar-right"><a href="http://192.168.5.1/farmasoft/login-form.php" ><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a></p>
-     <p class="navbar-text navbar-right"><a href="https://host.hddtotal5.com:2096/" ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></p>
->>>>>>> 49fb4dcae86291719a2ee2462c5bf9479079982c
-      <p class="navbar-text navbar-right"><a href="avisolegal.html" class="navbar-link">Aviso de Privacidad</a></p>
-
-  </div>
-</nav>
-<<<<<<< HEAD
-=======
+      <div class="row divisor">
+      </div>
+      <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+          <p class="miniTexto"> Culiacan, Sinaloa, México <br>
+          <p class="miniTexto"><a href="https://servifarmacias.com.mx:2078/">&copy; 2003 Servifarmacias Pacifico </a></p>
+          <p class="miniTexto"><a href="#">Aviso Legal </a></p>
+          <a href="http://192.168.5.1/farmasoft/login-form.php"><img class="miniImagen imagen1" src="files/login1.jpg"/></a>
+          <a href="https://host.hddtotal5.com:2096/"><img class="miniImagen" src="files/mail.jpg"/></a>
+        </div>
+      </div>
     </div>
->>>>>>> 49fb4dcae86291719a2ee2462c5bf9479079982c
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
