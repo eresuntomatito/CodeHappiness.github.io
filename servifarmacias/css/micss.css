@@ -76,6 +76,11 @@ a {
 	font-size: 2em;
 }
 
+.thumbnail {
+	text-align: center;
+	background-color: none;
+}
+}
 
 .menu {
 	background-color:#26AD00;
